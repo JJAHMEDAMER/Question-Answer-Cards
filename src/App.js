@@ -1,13 +1,13 @@
 import React from "react";
 
 // Comp
-import Card from "./comp/card"
+import Card from "./comp/card";
 
 function App() {
   return (
-    <div>
-      <h1>App Hello World</h1>
-      <Card/>
+    <div className="app">
+      <h1 className="app--title">Questions and Answers About Login</h1>
+      <Card />
     </div>
   );
 }
