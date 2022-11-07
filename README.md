@@ -1,4 +1,4 @@
-# Travel Journal
+# FAQ
 
 ### React App
 
@@ -9,7 +9,7 @@ FAQ, short for frequently asked questions, is a list of commonly asked questions
 1. UI Design Daily (Link)
 2. Generative Card
 3. Pure Css
-3. useState Hoke 
+3. useState Hook 
 
 ### Web Page
 
