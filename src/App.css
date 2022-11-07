@@ -16,8 +16,13 @@
 
 body {
     font-family: "Karla";
+    width: 100%;
+    height: 100vh;
     background-color: var(--color-bg);
     padding: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button,
@@ -26,28 +31,52 @@ input {
 }
 
 .app {
-    width: 100%;
-    height: 100vh;
+    width: 50rem;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: var(--color-bg-card);
     padding: 2.2rem;
     border-radius: 1rem;
+    box-shadow: 0 3px 10px -2px var(--color-shadow);
 }
 
 .app--title{
     width: 25%;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-right: 0.9rem;
+
+}
+
+.app--ques--list{
+    width: 75%;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 75%;
     padding: 1rem;
+    margin-bottom: 0.4rem;
     border-radius: 0.8rem;
-    box-shadow: 0 3px 10px -2px var(--color-shadow);
+    box-shadow: 0 1px 3px -2px var(--color-shadow);
     background-color: var(--color-bg-card);
 }
+
+.card--ques{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card--ques--text{
+    font-size: 1.2rem;
+}
+
+.card--ques--but{
+    background-color: rgba(240, 248, 255, 0);
+    border-width: 0;
+    padding: 0;
+}
+
+.card--ques--img{
+    width: 2.1rem;
+}
+
